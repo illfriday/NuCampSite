@@ -17,12 +17,15 @@
   <header class="jumbotron jumbotron-fluid">
     <div class="container">
       <div class="row">
-        <div class="col-4 col-sm-3 col-md-3 align-self-center">
+        <div class="col-4 col-sm-3 col-md-2 align-self-center">
           <img src="img/logo.png" alt="nucamp logo" class="img-fluid">
         </div>
         <div class="col">
           <h1>NuCamp</h1>
           <h2>a better way to camp</h2>
+        </div>
+        <div class="col-md-4 col-xl-2 mt-4">
+          <a class="btn btn-info" href="#reserveForm">Reserve Campsite</a>
         </div>
       </div>
     </div>
@@ -92,6 +95,43 @@
         </div>
       </div>
     </div>
+        <div class="row row-content align-items-center">
+          <div class="col-sm-6 mx-auto">
+            <div class="card">
+              <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
+              <div class="card-body">
+                <form action="" id="reserveForm">
+                  <div class="row form-group">
+                    <label for="numCampers" class="col-form-label col-sm-6">Number of Campers</label>
+                    <div class="col">
+                      <select class="col form-control" name="numCampers" id="numCampers">
+                        <option value="">Select</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row form-group">
+                    <label for="date" class="col-form-label col-sm-6">Date</label>
+                    <div class="col-sm-6">
+                      <input class="form-control" type="date" name="date" id="date" placeholder="date">
+                    </div>
+                  </div>
+                    <div class="row">
+                      <div class="col ">
+                        <button type="submit" class="btn btn-primary">Search</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
   </div>
 
   <footer class="site-footer">
@@ -120,6 +160,7 @@
         </div>
       </div>
     </div>
+
   </footer>
 
   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
