@@ -146,3 +146,12 @@ th {
 .nav-item.active:hover, .navbar-text:hover {
   opacity: 1;
 }
+
+.contactUs input, .contactUs.form-check, .contactUs textarea{
+  background-color: #a8a8a8dc;
+  opacity: 0.8;
+ }
+
+ .contactUs input::placeholder{
+  color: #333333d0;
+}
