@@ -12,7 +12,7 @@ h1{
 }
 
 h2 {
-  color: #455ad1bd;
+  color: #5064d6b9;
 }
 
 header h2 {
@@ -30,8 +30,9 @@ a, a:hover{
 }
 
 .site-footer {
-  background-image: linear-gradient(#CEC8FF, white);
-  padding: 20 px 0;
+  background-image: linear-gradient(#353535, rgb(36, 36, 36));
+  padding: 20px 0;
+  color: #aaaaaacc;
 }
 
 .jumbotron {
@@ -42,8 +43,12 @@ a, a:hover{
 
 .row-content{
   padding: 50px 0;
-  border-bottom: 1px ridge;
+  border-bottom: 1px ridge #aaaaaacc;;
   min-height:200px;
+}
+
+.row-content:last-of-type {
+  border-bottom: none;
 }
 
 .navbar{
@@ -55,5 +60,89 @@ a, a:hover{
 }
 
 .carousel{
-  border: solid #5637DD;
+  border: solid  #5064d6b9;
+}
+
+img.imgDarkThumb {
+  border: 5px solid #d1d1d1cc;
+  opacity: 0.8;
+}
+
+ p {
+  color: #aaaaaacc;
+}
+
+h3 {
+  color: #d1d1d1cc;
+}
+
+.carousel-caption{
+  color: #e6e6e6d7;
+}
+
+.darkButton {
+  color: #c9c8c8cb;
+  border: 2px solid #adadad;
+}
+
+.darkButton:hover {
+  color: #e4e4e4;
+  border: 2px solid #d4d4d4;
+}
+
+.modal-content{
+  background-color: #bebebed0;
+  color:#0f0f0fd5;
+}
+
+.modal-content input, .modal-content select, .card{
+  background-color: #858585d0;
+  opacity: 0.8;
+}
+
+.modal-content input::placeholder{
+  color: #333333d0;
+}
+
+
+.breadcrumb {
+  background-color: #c2c2c2e8;
+}
+
+.card-header {
+  background-color: #5064d6dc;
+  color:#1a1a1ae1;
+}
+
+.quoteCard {
+  background-color: #dbdbdbd2;
+}
+
+.quoteText {
+  color: #3d3d3d;
+}
+div.card-body>p {
+  color:#ddddddd3;
+}
+
+table, tbody {
+  background-color: #585858;
+  color: #e6e6e6dc;
+  opacity: 0.8;
+}
+
+th {
+  color: #ffffff;
+}
+
+.contactUs label, span, h5, address  {
+  color:#949494d7;
+}
+
+.nav-item.active, .navbar-text {
+  opacity: 0.9;
+}
+
+.nav-item.active:hover, .navbar-text:hover {
+  opacity: 1;
 }
