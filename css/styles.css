@@ -3,9 +3,8 @@ body {
   background-color: #121212;
 }
 
-h1,h2,h3 {
-  font-family: "Lobster";
-}
+h1, h2, h3 {
+  font-family: "Lobster", cursive; }
 
 h1{
   color: #5064d6f1;
@@ -19,11 +18,10 @@ header h2 {
   color: #cec8ffb4;
 }
 
-a, a:hover{
+a, a:hover {
   color: inherit;
   text-decoration: none;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .nav-item .active{
   display: none;
@@ -41,7 +39,7 @@ a, a:hover{
   background-image: linear-gradient(to right, #0f0f0f, #1b1b1b, #272727);
 }
 
-.row-content{
+.row-content {
   padding: 50px 0;
   border-bottom: 1px ridge #aaaaaacc;;
   min-height:200px;
@@ -56,8 +54,7 @@ a, a:hover{
 }
 
 .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5);
-}
+  background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel{
   border: solid  #5064d6b9;
