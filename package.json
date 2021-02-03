@@ -4,14 +4,16 @@
   "description": "This is the website for the virtual campsite review site NuCamp",
   "main": "index.js",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.5.4",
+    "node-sass": "^5.0.0"
   },
   "scripts": {
     "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Will Prouty",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.5.2",
